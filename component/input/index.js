@@ -5,9 +5,9 @@ import { StyleSheet, View, Image, TextInput, I18nManager,Text,Alert } from 'reac
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 
-const emialIcon = require('email.png');
-const mobileIcon = require('mobile.png');
-const certIcon = require('id.png');
+const emialIcon = require('./email.png');
+const mobileIcon = require('./mobile.png');
+const certIcon = require('./id.png');
 
 const leftIcons = {
   email: emialIcon,

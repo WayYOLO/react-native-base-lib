@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':react-native-base-lib'
+project(':react-native-base-lib').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-base-lib/android')
+
+include ':app'
