@@ -45,9 +45,9 @@
 
 ## Usage
 ```javascript
-import RNBaseLib from 'react-native-base-lib';
+import { Input , NativeBaseLib } from 'react-native-base-lib';
 
 // TODO: What to do with the module?
-RNBaseLib;
+
 ```
   
