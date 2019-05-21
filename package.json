@@ -1,11 +1,13 @@
-
 {
   "name": "react-native-base-lib",
   "version": "1.0.1-beta",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint --ext .js src",
+    "lint:fix": "./node_modules/.bin/eslint --ext  .js src --fix",
+    "lintm": "./node_modules/.bin/eslint --ext .js",
+    "lintm:fix": "./node_modules/.bin/eslint --fix --ext .js"
   },
   "keywords": [
     "react-native"
@@ -18,6 +20,23 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^3.9.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.17.1"
   }
 }

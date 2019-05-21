@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { StyleSheet, View, Image, TextInput, I18nManager,Text,Alert } from 'react-native';
+import { StyleSheet, View, Image, TextInput, I18nManager, Text, Alert } from 'react-native';
 
 import PropTypes from 'prop-types';
 import _ from 'lodash';
@@ -16,7 +16,7 @@ const leftIcons = {
 };
 
 const rtlTextAlign = I18nManager.isRTL ? 'right' : 'left';
-const alert = Alert.alert;
+const { alert } = Alert;
 class Input extends Component {
   static propTypes = {
     required: PropTypes.bool, // 是否必填
